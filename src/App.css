@@ -1,3 +1,80 @@
 .App {
   text-align: center;
+  /* padding: 20rem; */
+}
+.nav {
+  background-color: #38424B;
+  box-shadow: 0rem .2rem .5rem 0rem rgba(0,0,0,0.25);
+  color: #ffffff;
+  padding: .9rem;
+  display: grid;
+  grid-template-columns: 37rem 1fr;
+  margin-bottom: 1rem;
+
+}
+.logo {
+  justify-self: start;
+}
+.app-name {
+  justify-self: start;
+  align-self: center;
+  font-weight: bold;
+  display: grid;
+  grid-template-columns: 3rem 1fr;
+}
+.app-name-text {
+  justify-self: start;
+  align-self: center;
+}
+.app-container{
+  max-width: 1200px;
+  margin: auto;
+}
+.panel {
+  border-radius: .3rem;
+  box-shadow: 0rem .2rem .5rem 0rem rgba(0,0,0,0.25);
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 1rem;
+}
+.panel-form {
+  padding: 1rem;
+}
+.form-input {
+  margin-bottom: 1rem;
+  margin-left: 1rem;
+  width: 15rem;
+  padding: .3rem;
+  user-select: none;
+  outline: none;
+  border: 1px solid #d3d3d3;
+  border-radius: .1rem;
+}
+.form-input-label {
+  font-size: .85rem;
+  color: #7c7c7c;
+}
+.recon-btn {
+  align-self: center;
+  justify-self: end;
+  margin-right: 2rem;
+  border: 1px solid #d3d3d3;
+  width: 5rem;
+  padding: .6rem;
+  font-size: .8rem;
+  border-radius: .2rem;
+  cursor: pointer;
+}
+.recon-btn:hover {
+  border: 1px solid blue;
+}
+.target-image {
+  justify-self: start;
+}
+.data {
+  margin-top: 2rem;
+  box-shadow: 0rem .2rem .5rem 0rem rgba(0,0,0,0.25);
+
+
+  padding: 1rem;
 }
